@@ -1,138 +1,81 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Coilborn — A light trail in the grid</title>
-<meta name="description" content="Coilborn is the old snake rebuilt out of light: a trail that glides through the grid, sector by sector. One payment, no ads, no network.">
-<meta name="theme-color" content="#0E9E8F">
-<meta property="og:title" content="Coilborn — A light trail in the grid">
-<meta property="og:description" content="Coilborn is the old snake rebuilt out of light: a trail that glides through the grid, sector by sector. One payment, no ads, no network.">
-<meta property="og:image" content="img/1.png">
-<meta property="og:type" content="website">
+<title>Coilborn — GROW THROUGH THE DEEP</title>
+<meta name="description" content="Coilborn: a light cycle on the grid. 100 phases across eight sectors, 90-degree turns and a wall of light behind you. One payment, no ads, no network.">
+<meta name="theme-color" content="#04060b">
+<meta property="og:title" content="Coilborn — GROW THROUGH THE DEEP"><meta property="og:description" content="Coilborn: a light cycle on the grid. 100 phases across eight sectors, 90-degree turns and a wall of light behind you. One payment, no ads, no network.">
+<meta property="og:image" content="img/shot-2.png"><meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap">
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="nav">
-  <div class="wrap">
-    <a class="logo" href="index.html"><img src="img/icon.png" alt=""> Coilborn</a>
-    <nav>
-      <a href="index.html#features">Features</a>
-      <a href="index.html#parents">No strings</a>
-      <a href="index.html#faq">FAQ</a>
-      <a class="cta" href="index.html#get">Where to play</a>
-    </nav>
-  </div>
+</head><body>
+<canvas id="bg"></canvas><div class="veil"></div>
+
+<main>
+<header class="hero">
+  <div class="mark"><i class="box"></i><i class="a"></i><i class="b"></i><i class="h"></i></div>
+  <span class="tag">In development</span>
+  <h1>Coilborn</h1>
+  <p class="tag" style="color:var(--mg);margin-top:10px">GROW THROUGH THE DEEP</p>
+  <p class="lede">You ride a program. Behind you, a wall of light. Every turn is ninety degrees, every lane is a lane you can die in — and the wall you leave is the one that kills you.</p>
+  <div class="cta"><a class="btn ghost" href="#video">Watch it run</a><a class="btn ghost" href="#shots">See the grid</a></div>
 </header>
-<svg class="blobs" viewBox="0 0 1200 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M600 -120 L140 620 L240 620 Z" fill="#7A4BD0" opacity=".10"/><path d="M600 -120 L270 620 L370 620 Z" fill="#0E9E8F" opacity=".10"/><path d="M600 -120 L400 620 L500 620 Z" fill="#7A4BD0" opacity=".10"/><path d="M600 -120 L530 620 L630 620 Z" fill="#0E9E8F" opacity=".10"/><path d="M600 -120 L660 620 L760 620 Z" fill="#7A4BD0" opacity=".10"/><path d="M600 -120 L790 620 L890 620 Z" fill="#0E9E8F" opacity=".10"/><path d="M600 -120 L920 620 L1020 620 Z" fill="#7A4BD0" opacity=".10"/><path d="M600 -120 L1050 620 L1150 620 Z" fill="#0E9E8F" opacity=".10"/></svg>
-<section class="hero">
-  <div class="wrap">
-    <div>
-      <span class="eyebrow">In development — not on sale yet</span>
-      <h1>Steer a trail of light through the grid</h1>
-      <p class="lede">No grid of cells and no squares. Your trail glides, and you steer it: hold anywhere and it turns towards your finger, or use the arrow keys. Absorb the identity discs, keep clear of the firewall nodes, and never cross your own light.</p>
-      <div class="hero-actions">
-        <a class="btn btn-main" href="#get"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c1-2 3-3 5-3 0 2-1 4-2 5M7 21c-2-2-3-6-2-9 1-2 3-3 5-3 1 0 2 .5 2 .5s1-.5 2-.5c2 0 4 1 5 3 1 3 0 7-2 9-1 1-2 1-3 0-1 0-2 0-3 0-1 1-2 1-4 0z"/></svg> Where to play</a>
-        <a class="btn btn-ghost" href="#features">What's inside</a>
-      </div>
-      <p class="meta">Ages 7+ · one payment of $2.99 · no ads, no in-app purchases</p>
-    </div>
-    <div class="phone"><img src="img/1.png" alt="Coilborn on iPhone"></div>
-  </div>
-</section>
 
-<section class="band">
-  <div class="wrap">
-    <div class="rail">
-      <img src="img/1.png" alt="Coilborn screenshot 1" loading="lazy">
-      <img src="img/2.png" alt="Coilborn screenshot 2" loading="lazy">
-      <img src="img/3.png" alt="Coilborn screenshot 3" loading="lazy">
-      <img src="img/4.png" alt="Coilborn screenshot 4" loading="lazy">
-      <img src="img/5.png" alt="Coilborn screenshot 5" loading="lazy">
-      <img src="img/6.png" alt="Coilborn screenshot 6" loading="lazy">
-    </div>
+<section id="video"><div class="wrap">
+  <div class="head"><span class="tag">Gameplay</span><h2>A light cycle on the grid</h2>
+    <p>Four sectors, four phases, recorded straight from the game — with its own soundtrack.</p></div>
+  <div class="panel video">
+    <video controls preload="none" poster="img/shot-2.png" playsinline>
+      <source src="media/gameplay.mp4" type="video/mp4">
+    </video>
+    <p class="hint">Sound on — the music is tracker, the effects are synthesised while it plays</p>
   </div>
-</section>
+</div></section>
 
-<section id="features">
-  <div class="wrap">
-    <div class="section-head"><h2>What is in it</h2><p>A short game you can pick up with one hand, and one control to learn.</p></div>
-    <div class="grid">
-      <div class="card"><div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zM17 8a5 5 0 0 1 0 8"/></svg></div><h3>One control: steer</h3><p>Hold anywhere and the head turns towards your finger. Arrow keys on a keyboard. Nothing else to learn.</p></div>
-      <div class="card"><div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 11V8a6 6 0 0 1 12 0v3M5 11h14v10H5z"/></svg></div><h3>Sectors, not one endless run</h3><p>Each sector is a lit rectangle with a grid floor. Clear it and the next one opens: faster, more crowded, in a different colour.</p></div>
-      <div class="card"><div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8a16 16 0 0 1 20 0M5 12a11 11 0 0 1 14 0M8.5 15.5a6 6 0 0 1 7 0M12 20h.01M3 3l18 18"/></svg></div><h3>Four programs</h3><p>Cyan from the start; Orange, Lime and Violet as you get further. Each changes the colour of your light, not the rules.</p></div>
-      <div class="card"><div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v10H3zM7 19h10M12 15v4"/></svg></div><h3>A crash costs the sector</h3><p>Never your progress. Best sector, discs absorbed and unlocked programs are kept between runs.</p></div>
-    </div>
+<section id="shots"><div class="wrap">
+  <div class="head"><span class="tag">Screens</span><h2>Eight sectors, a hundred phases</h2>
+    <p>Every sector repaints the whole screen, and every phase has its own grid width and its own world behind the glass.</p></div>
+  <div class="shots">
+      <figure class="panel shot"><img src="img/shot-0.png" alt="Phase 01 — a clean grid and one lane to learn" loading="lazy"><span>Phase 01 — a clean grid and one lane to learn</span></figure>
+      <figure class="panel shot"><img src="img/shot-1.png" alt="Sector VIOLET — walls, firewalls and a sentry" loading="lazy"><span>Sector VIOLET — walls, firewalls and a sentry</span></figure>
+      <figure class="panel shot"><img src="img/shot-2.png" alt="The wall is long now, and the arena is yours to lose" loading="lazy"><span>The wall is long now, and the arena is yours to lose</span></figure>
+      <figure class="panel shot"><img src="img/shot-3.png" alt="Sector AMBER — every sector repaints the whole screen" loading="lazy"><span>Sector AMBER — every sector repaints the whole screen</span></figure>
+      <figure class="panel shot"><img src="img/shot-4.png" alt="The grid map: 100 phases, badges and records" loading="lazy"><span>The grid map: 100 phases, badges and records</span></figure>
+      <figure class="panel shot"><img src="img/shot-5.png" alt="The main menu" loading="lazy"><span>The main menu</span></figure>
+      <figure class="panel shot"><img src="img/shot-6.png" alt="Settings: blur the backdrop, pick your program" loading="lazy"><span>Settings: blur the backdrop, pick your program</span></figure>
   </div>
-</section>
+  <div class="sectors" style="margin-top:26px">
+      <span class="sector" style="color:#5ae2f0">GRID</span>
+      <span class="sector" style="color:#c470fa">VIOLET</span>
+      <span class="sector" style="color:#6096ff">ABYSS</span>
+      <span class="sector" style="color:#ff963c">FLARE</span>
+      <span class="sector" style="color:#96f05a">TOXIC</span>
+      <span class="sector" style="color:#ff6478">CRIMSON</span>
+      <span class="sector" style="color:#ffce46">AMBER</span>
+      <span class="sector" style="color:#d6e2f0">VOID</span>
+  </div>
+</div></section>
 
-<section class="band">
-  <div class="wrap">
-    <div class="section-head"><h2>How it works</h2><p>Three things to know, and you are playing.</p></div>
-    <div class="grid">
-      <div class="card"><div class="dot"><b style="color:#0E9E8F">1</b></div><h3>Steer</h3><p>Hold anywhere on the screen, or use the arrow keys. The trail never stops: you only choose where it goes.</p></div>
-      <div class="card"><div class="dot"><b style="color:#0E9E8F">2</b></div><h3>Absorb</h3><p>Identity discs make you longer. The note rises with every disc you take in a sector.</p></div>
-      <div class="card"><div class="dot"><b style="color:#0E9E8F">3</b></div><h3>Keep clear</h3><p>Firewall nodes kill on contact, and so does your own trail. The phosphor you leave behind is only light.</p></div>
-    </div>
+<section><div class="wrap">
+  <div class="head"><span class="tag">What it is</span><h2>A wall of light, and it is yours</h2></div>
+  <div class="grid">
+      <article class="panel card"><span class="tag">GRID</span><h3>Ninety degrees, always</h3><p>The cycle glides between cells and the turn snaps at the centre of one. No diagonals, no drift — the wall you leave is perfectly orthogonal, and so is every mistake.</p></article>
+      <article class="panel card"><span class="tag">WALL</span><h3>The wall is the danger</h3><p>Each identity disc you absorb makes your wall longer. It never tapers and it never forgives: the arena shrinks with every disc, and it shrinks because of you.</p></article>
+      <article class="panel card"><span class="tag">MAP</span><h3>100 phases, one circuit</h3><p>Eight sectors, a hundred phases, each with its own grid width — from twelve columns to forty. They live on a printed circuit you walk node by node, with badges and records on every one.</p></article>
+      <article class="panel card"><span class="tag">GEAR</span><h3>Four ways to survive</h3><p>Brake to half speed, a shield that forgives the first crash of a phase, a boost that eats the meter, and a scan that marks the nearest disc across the grid.</p></article>
+      <article class="panel card"><span class="tag">EYE</span><h3>Eight worlds behind the glass</h3><p>Circuit boards, terminals, skylines, reactor cores, data cubes, oscilloscopes, node graphs and punched tape — a different one behind every phase, and you can blur it if it pulls your eye.</p></article>
+      <article class="panel card"><span class="tag">OFF</span><h3>Nothing phones home</h3><p>One payment. No ads, no purchases, no accounts, no network code at all. The soundtrack is tracker music and the sound effects are synthesised while you play.</p></article>
   </div>
-</section>
-
-<section id="parents">
-  <div class="wrap">
-    <div class="section-head"><h2>Bought once, and that is the end of it</h2>
-      <p>No ads, no purchases, no accounts, no network. Nothing to check for.</p></div>
-    <div class="trust">
-      <div><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v10H3zM7 19h10M12 15v4"/></svg><div><b>No ads, ever</b><span>Nothing blinks, nothing interrupts, nothing sells.</span></div></div>
-      <div><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7h6a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6M4 4l16 16"/></svg><div><b>No in-app purchases</b><span>One payment. Nothing is locked behind a paywall.</span></div></div>
-      <div><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8a16 16 0 0 1 20 0M5 12a11 11 0 0 1 14 0M8.5 15.5a6 6 0 0 1 7 0M12 20h.01M3 3l18 18"/></svg><div><b>Works offline</b><span>No network, no accounts, no sign-in. It never phones home.</span></div></div>
-      <div><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 11V8a6 6 0 0 1 12 0v3M5 11h14v10H5z"/></svg><div><b>Collects nothing</b><span>No analytics and no identifiers. Your progress stays on your device.</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section id="get" class="band">
-  <div class="wrap">
-    <div class="section-head"><h2>Where you can play</h2>
-      <p>Buy once on the App Store and it works on iPhone, iPad and Mac. Desktop and Android builds are on the way.</p></div>
-    <div class="plats">
-      <div class="plat"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 2h10v20H7zM11 18h2"/></svg><b>iPhone & iPad</b><span>iOS 15 or later</span><em>Coming soon</em></div>
-      <div class="plat"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v14H3zM3 9h18"/></svg><b>Mac</b><span>macOS 11 or later</span><em>Coming soon</em></div>
-      <div class="plat"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18v14H3zM3 9h18"/></svg><b>Windows</b><span>Windows 10 or later</span><em>Coming soon</em></div>
-      <div class="plat"><svg viewBox="0 0 24 24" fill="none" stroke="#0E9E8F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 2h10v20H7zM11 18h2"/></svg><b>Android</b><span>Android 7 or later</span><em>Coming soon</em></div>
-    </div>
-  </div>
-</section>
-
-<section id="faq">
-  <div class="wrap">
-    <div class="section-head"><h2>Questions</h2></div>
-    <details><summary>Can I play it now?</summary><p>Not yet. Coilborn is still in development; this page is here so you can see what it is. It will go on sale on the App Store first, with desktop and Android to follow.</p></details>
-    <details><summary>Is it the snake game I know?</summary><p>The idea is: eat, grow, do not bite yourself. The feel is not. There are no cells and no steps — the trail glides and turns as smoothly as you steer it.</p></details>
-    <details><summary>How long is a run?</summary><p>A sector takes a minute or two. You can leave after any of them: your best sector is kept.</p></details>
-    <details><summary>Does it get harder?</summary><p>Every sector is faster and has more firewall nodes, and your own trail gets longer, which is what really ends runs.</p></details>
-    <details><summary>Is there anything to read?</summary><p>Almost nothing. The sector name and the disc counter, and both are optional to look at.</p></details>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="closer">
-      <h2>One payment, when it ships.</h2>
-      <p>Coilborn is not on sale yet. When it is, you buy it once and it is yours on iPhone, iPad and Mac: no ads, no in-app purchases, no accounts and no network — the game never talks to anything.</p>
-      <a class="btn btn-main" href="#get"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c1-2 3-3 5-3 0 2-1 4-2 5M7 21c-2-2-3-6-2-9 1-2 3-3 5-3 1 0 2 .5 2 .5s1-.5 2-.5c2 0 4 1 5 3 1 3 0 7-2 9-1 1-2 1-3 0-1 0-2 0-3 0-1 1-2 1-4 0z"/></svg> Get Coilborn</a>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="wrap">
-    <div><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></div>
-    <div>© 2026 Javier Báscones · made in Spain</div>
-  </div>
-</footer>
-</body>
-</html>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <p>&copy; 2026 Javier Bascones &middot; made in Spain</p>
+  <nav class="links"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+</div></footer>
+<script src="bg.js"></script>
+</body></html>
